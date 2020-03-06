@@ -1,0 +1,85 @@
+.container{
+    width: 780px;;
+    margin: 0 auto;   
+    background: #FFF; 
+    box-shadow: 0px 9px 13px 4px;
+    /* 0px for left and right balance */
+    /* 9px  for top and bottom balance*/
+    /* 13px for the shadow  */
+    /* 4px for thickness of shadow */
+}
+
+.header .link-title{
+    text-decoration: none;
+    font-size: 24px;
+    color: #444444;
+}
+.header{
+    
+    padding: 45px 0px 20px 40px;
+/*    top right bottom left*/
+  
+}
+
+nav{
+    padding: 0 0 19px 0px;
+    background: #3b7687;
+    height: 30px;
+    width: 100%;
+    
+}
+ nav ul{
+        float: left;
+    margin-right: 50px;
+}
+ nav ul li{
+    
+    display: inline-block;
+    line-height: 10px;
+    margin: 0 5px;
+}
+
+nav ul li a{
+        
+   text-decoration: none;
+    color: white;
+    font-size: 10px;
+    text-transform: uppercase;
+    padding: 7px 13px;
+    border-radius: 3px;/*see the effects hovering theres a radius box*/
+    
+}
+
+#home-page a.active,a:hover{
+    background: #BCBEC0;
+    transition: .5s;
+}
+
+form{
+    padding: 45px 0px 20px 40px;
+}
+
+
+
+
+footer {
+    padding: 6px 40px 6px 40px;
+    background: #d6d6d6;
+    font-family: "Lcida Sans Unicode";
+    color: #444444;
+    font-size: 11px;
+    text-decoration: right;
+    
+}
+.footer a{
+    text-decoration: none;
+}
+
+.separator{
+    
+    color: #FFFFFF;
+    font-size: 14px;
+}
+
+
+
