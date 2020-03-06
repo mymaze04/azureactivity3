@@ -66,9 +66,9 @@
                 </thead>
                 <tbody>
                 <?php
-                           $servername="localhost";
-                           $username="root";
-                           $password="";
+                           $servername="myit330server.mysql.database.azure.com";
+                           $username="MarkAdmin@myit330server";
+                           $password="Admin123";
                            $database="azureactivity3";
                         
                         
@@ -126,9 +126,9 @@
 //    $username="myadmin@mydemoserveractivity";
 //    $password="Admin123";
 //    $database="azureactivity3db";
-   $servername="localhost";
-   $username="root";
-   $password="";
+   $servername="myit330server.mysql.database.azure.com";
+   $username="MarkAdmin@myit330server";
+   $password="Admin123";
    $database="azureactivity3";
 
 
