@@ -1,8 +1,8 @@
 <?php    
         if($_GET){
-            $servername = "localhost";
-            $username ="root";
-            $password = "";
+            $servername = "myit330server.mysql.database.azure.com";
+            $username ="MarkAdmin@myit330server";
+            $password = "Admin123";
             $database = "azureactivity3";
             $connection = mysqli_connect($servername,$username,$password,$database);
             $Id = $_GET["Id"];
